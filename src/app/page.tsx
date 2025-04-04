@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
+import PetEcommerceMVP from "../../components/pets/PetEcommerceMVP";
 
-export default function PetEcommerceMVP() {
-  return (
-    <div className="min-h-screen flex items-center justify-center text-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-pink-600">¡PetLovers+ funciona! 🎉</h1>
-    </div>
-  );
+export default function Home() {
+  return <PetEcommerceMVP />;
 }
